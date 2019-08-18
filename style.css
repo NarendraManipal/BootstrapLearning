@@ -1,20 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
 
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
-  color: #222;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
 }
 .navbar {
   padding: .8rem;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.navbar-brand h1 {
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  font-size: 1.5em;
+	font: {
+		size: 20vw;
+		family: $font;
+	};
+}
+.navbar-toggler:focus {
+  outline: none;
 }
 .navbar-nav li {
-padding-right: 20px;
+  padding-right: 30px;
 }
 .nav-link {
   font-size: 1.1em !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffff;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #7c41e6 !important;
 }
 .carousel-inner img {
   height: 100%;
@@ -24,6 +49,12 @@ padding-right: 20px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+.carousel-indicators > li {
+  border-radius: 50%;
+  width: .7rem;
+  height: .7rem;
+  background-color: #404040;
 }
 .carousel-caption h1 {
   font-size: 500%;
@@ -102,9 +133,9 @@ padding-right: 20px;
   color: #bb0000;
 }
 .fa-facebook:hover,
-.fa-twitter:hover, 
-.fa-google-plus-g:hover, 
-.fa-instagram:hover, 
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
 .fa-youtube:hover {
   color: #d5d5d5;
 }
@@ -177,8 +208,11 @@ button:focus {
   font-size: 90%;
   padding: 4px 8px;
 }
-.carousel-indicators {
-  display: none;
+.carousel-indicators > li{
+  border-radius: 50%;
+  width: .5rem;
+  height: .5rem;
+  background-color: #404040;
 }
 .display-4 {
   font-size: 160%;
@@ -252,11 +286,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
