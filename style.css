@@ -77,10 +77,6 @@ html, body {
   background: linear-gradient(to right, #330867 0%, #1b3995 100%);
   border: 1px solid #563d7c;
 }
-.jumbotron {
-  padding: 1rem;
-  border-radius: 0;
-}
 .padding {
   padding-bottom: 1rem;
 }
@@ -94,26 +90,6 @@ html, body {
   width: 95%;
   margin-top: .3rem;
   margin-bottom: 1rem;
-}
-.fa-code {
-  color: #e54d26;
-}
-.fa-bold {
-  color: #563d7c;
-}
-.fa-css3 {
-  color: #2163af;
-}
-.fa-code, .fa-bold, .fa-css3 {
-  font-size: 4em;
-  margin: 1rem;
-}
-.fun {
-  width: 100%;
-  margin-bottom: 2rem;
-}
-.gif {
-  max-width: 100%;
 }
 .social a {
   font-size: 1.1em;
