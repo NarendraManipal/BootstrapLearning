@@ -86,7 +86,9 @@ html, body {
   height: 70%;
   overflow: hidden;
 }
-
+h4 {
+  text-align: center;
+}
 .padding {
   padding-bottom: 1rem;
 }
