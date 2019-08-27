@@ -163,6 +163,12 @@ hr.light-100 {
 button:focus {
   outline: none;
 }
+.card {
+  box-shadow: 0px 0px 10px #b4b4b4;
+}
+.img-fluid {
+  box-shadow: 0px 0px 10px #b4b4b4;
+}
 
 
 /*---Media Queries --*/
